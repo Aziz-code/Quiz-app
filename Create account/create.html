@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="New folder/style.css">
+	<link rel="stylesheet" href="New folder/style0.css">
+  <link rel="stylesheet" type="text/css" href="create.css">
+	
+</head>
+<body>
+
+<section id="home">
+<div id="particles-js">
+</div>
+</section>
+<div class="loginbox">
+<!--     <img src="" alt="" class="avatar">-->
+     <h1>Login</h1>
+     <form action="validation.php" method="post">
+         <p>Name</p>
+         <input type="text" placeholder="Enter username" name="User" required> 
+         <p>Username</p>
+         <input type="password" placeholder="Enter your email-id" name="Pass" required>
+         <p>Password</p>
+         <input type="text" placeholder="Enter Password" name="User" required> 
+         <p>Confirm Password</p>
+         <input type="password" placeholder="Confirm Password" name="Pass" required>
+         <br><br>
+         <input type="submit" value="Login">
+         <br><br>
+     </form>    
+</div>
+
+	<script type="text/javascript" src="New folder/particles.js" ></script>
+	<script type="text/javascript" src="New folder/app.js" ></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	</body>
+</html>

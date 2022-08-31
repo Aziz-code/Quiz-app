@@ -1,0 +1,339 @@
+@import('MetalMania-Regula.ttf');
+
+body{
+    padding:0;
+    margin: 0px;
+    margin-top: 0px;
+    color: black;
+    }
+
+header
+{
+    background: #ADD8E6;
+    position: fixed;
+    top: 0px; left: 0; width: 100%;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 5px 100px;
+    z-index: 1000000;
+}
+
+header .logo
+{ color: #000; text-decoration: none;
+    position: relative;font-size: 40px;
+    justify-content: center;
+    align-items: center; text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+header ul
+{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+header ul li{
+    font-size: 18px;
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+.sticky
+{
+    padding: 5px 100px;
+    background: #000;
+}
+
+.sticky .logo,.sticky ul li a
+{
+    color: #fff;
+}
+
+
+.topping{
+    
+    background-image: url(image/back_image.jpg);
+    height:100vh;
+    color:antiquewhite;
+    background-size: cover;
+    opacity: 69%;
+    }
+    
+.topping .top{
+    color: black;
+    margin: 0px;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 500;
+    font-family: sans-serif;
+    border: none;
+    padding:60px;
+}   
+
+.foot{
+    column-rule-style: solid;
+    color: black;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    font-size: 55px;
+    text-align: center;
+    font-weight: 600;
+    font-family:serif;
+    letter-spacing: 2px;
+    }
+    
+.topping .main{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 25px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;position: relative;
+    left: 34%;
+    margin-left: 25px;
+}
+.topping .main:hover{
+    
+  background-color:cadetblue;
+  color:black;
+  transition: 0.2s ease-in-out background-color;
+    }
+
+.b{
+    margin-bottom: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    display:block;
+    background-color: dimgray;
+    height:20%;
+}
+
+.test{
+/*    background-color: aliceblue;*/
+    margin: 0px;
+    margin-top: 0px;
+}
+
+.test .A_Third-Header{
+    text-align: center;
+    font-family: serif;
+    letter-spacing: 5px;
+    text-transform:uppercase;
+    font-size: 35px;
+    text-decoration: underline;
+    
+}
+
+
+.container .col-lg-4{
+    float:left;
+/*    background-color: aliceblue;*/
+}
+
+ .z{
+    margin-top: 20px;
+    text-align: center;
+    font-family: serif;
+    font-size:35px;
+    letter-spacing: 5px;
+    text-decoration:underline;
+     text-transform: uppercase;
+}
+.col-lg-4{
+    font-family: monospace;
+    font-style: italic;
+    font-size: 16px;
+    float: left;
+}
+
+h3{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+#about{
+    background-color: aliceblue;
+    height: 100vh;
+}
+.conver
+{
+    background-image: url("./programming.jpg");
+    background-size: cover;
+    width: 85%;    max-width: 600px;  height: 450px;
+    position: relative;
+    background: #f1f1f1;
+    top: 50%;left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;border-radius: 8px;
+    text-align: center;
+}
+
+.conver h1{
+    margin-top: 0px;
+    font-weight: 200;
+}
+
+.txtb
+{
+    border: 1px solid gray;background: none;outline: none;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+.txtb label{
+    text-transform: initial;
+    font-size: 14px;
+    color: #333;
+    text-align: left;display: block;
+}
+.txtb input
+{
+    width: 100%;
+    border: none;background: none;
+    outline: none;
+    font-size: 17px;
+    margin-top: 6px;
+}
+
+.conver .btn
+{   display: block;
+    background-color: green;
+    padding: 14px 0;
+    color: #fff;
+    text-transform: uppercase;
+    cursor:pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+
+#contact
+{  
+    
+    background-color:#70e1f5;
+    display: flex;
+    width: 100%;
+    background-size: cover;height: 100%;
+    height: 1000px;
+}
+
+#tape
+{
+    padding-left: 30px;
+    margin-left: 30px;
+    position: relative;
+    text-align: left;
+    font-size: 38px;
+}
+
+.footer{
+    text-align: center;
+    background-color: aliceblue;
+    }
+.footer f1{
+    font-size: 18px;
+}
+.footer f2{
+    font-size: 16px;
+}
+.container1  h2:focus{
+    border-color:blue;
+    -webkit-box-shadow:none;
+    box-shadow: none;
+}
+#teams
+{
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+}
+.combine
+{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    max-width: 1000px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card
+{
+    position: relative;
+    margin: 20px;
+    margin-left: 10px;
+    width: 200px;
+    height: 300px;
+    background: #fff;
+    transform-style: preserve-3d;
+    transform: perspective(2000px);
+    transition: 1s;
+    box-shadow: inset 300px 0 50px rgba(0, 0, 0, .5);
+}
+.card:hover
+{
+    z-index: 1000;
+    transform: perspective(2000px) rotate(-10deg);
+    box-shadow: inset 300px 0 50px rgba(104, 102, 102, 0.39);
+}
+.card .imgbox
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    transform-origin: left;
+    z-index: 1;
+    transition: 1s;
+}
+.card:hover .imgbox
+{
+    transform: rotateY(-135deg);
+}
+.card .imgbox img
+{
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card .details
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.card .details a img
+{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
+.card .details .work
+{
+    font-size: 25px;
+}

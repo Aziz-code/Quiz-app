@@ -1,0 +1,46 @@
+body{
+    background-image: url(Shore.jpg);
+    font-family: Raleway;
+}
+
+h1{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.container{
+    height: 100vh;
+}
+.container .heading
+{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container .contents
+{
+    padding-left: 45px;
+    margin: 10px 5px;
+}
+
+button {
+    border-radius: 100px;
+    background-color: #0a3d62;
+    padding: 10px 15px;
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;text-decoration: none;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: darkslategray !important;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.container .B{
+    float: right;
+}
